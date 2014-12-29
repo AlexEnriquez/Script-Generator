@@ -21,7 +21,7 @@ def Save():
     fichero.write('\t\tself.setLayout(self.layout)\n')
     fichero.write('\t\tself.button.clicked.connect(self.Mensaje)\n')
     fichero.write('\tdef Mensaje(self):\n')
-    fichero.write('\t\tmensaje=QMessageBox.information(self,"mensaje",self.lineEdit.text())\n')
+    fichero.write('\t\tmensaje=QMessageBox.information(self,"message",self.lineEdit.text())\n')
     fichero.write('if __name__=="__main__":\n')
     fichero.write('\ttry:\n')
     fichero.write('\t\tapp=QApplication(sys.argv)\n')
